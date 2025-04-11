@@ -4,3 +4,4 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 math_engine: mathjax
+footer_heading: BIA technologis
