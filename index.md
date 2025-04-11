@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Главная
+theme: jekyll-theme-minimal
 ---
 
 # Добро пожаловать!
