@@ -1,0 +1,22 @@
+<!-- MathJax с настройками для адаптивности -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    chtml: {
+      scale: 0.9,      // Масштаб формул
+      displayAlign: 'left'  // Выравнивание
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+<style>
+  /* Фикс для формул */
+  mjx-container[jax="CHTML"] {
+    display: inline-block;
+    vertical-align: middle;  // Выравнивание с текстом
+    margin: 0 0.1em;        // Отступы
+  }
+</style>
