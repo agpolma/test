@@ -1,8 +1,9 @@
 ---
-title: Главная
+layout: default
+title: BIA CVRPTW Competition 2025
 ---
 
-# Добро пожаловать!
+# BIA CVRPTW Competition 2025
 
 Вот формула: 
 
