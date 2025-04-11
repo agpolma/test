@@ -1,39 +1,20 @@
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Главная | Мой сайт</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Главная" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://agpolma.github.io/test_agpolma.github.io/" />
-<meta property="og:url" content="https://agpolma.github.io/test_agpolma.github.io/" />
-<meta property="og:site_name" content="Мой сайт" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Главная" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Главная","name":"Мой сайт","url":"https://agpolma.github.io/test_agpolma.github.io/"}</script>
-
-<!-- MathJax с настройками для адаптивности -->
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    },
-    chtml: {
-      scale: 0.9,      // Масштаб формул
-      displayAlign: 'left'  // Выравнивание
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  options: {
+    enableMenu: false,      // Отключаем меню правого клика
+    renderActions: {
+      // Отключаем ненужные рендеры
+      addMenu: [0, '', ''],  
+      style: [0, '', '']
     }
-  };
+  },
+  chtml: {
+    scale: 0.9,            // Масштаб
+    matchFontHeight: false  // Не меняет шрифты документа
+  }
+};
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-
-<style>
-  /* Фикс для формул */
-  mjx-container[jax="CHTML"] {
-    display: inline-block;
-    vertical-align: middle;  // Выравнивание с текстом
-    margin: 0 0.1em;        // Отступы
-  }
-</style>
