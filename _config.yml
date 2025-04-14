@@ -1,10 +1,6 @@
 title: BIA Technologies
 description: Описание
-theme: reverie  # Стандартная тема
+theme: minimal  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
-theme_config:
-  seo: false
-exclude:
-  - jekyll-seo-tag
