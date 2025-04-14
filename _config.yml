@@ -6,3 +6,5 @@ plugins:
   - jekyll-feed
 theme_config:
   seo: false
+exclude:
+  - jekyll-seo-tag
