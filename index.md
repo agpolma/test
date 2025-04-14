@@ -70,7 +70,7 @@ python3 -m pip install -r requirements.txt
 <img src="https://github.com/user-attachments/assets/2fd116f2-8399-4bb5-8bd9-ae8515b46be7"  style="max-width: 45%; height: auto;">
 </p>
 
-где <img src="https://github.com/user-attachments/assets/21f253d5-959b-4cd7-9700-b61eb64e9f58"  style="max-width: 40%; height: auto;"> — математическое округление до второго знака после запятой. Время прохождения расстояния вычисляется по формуле: <img src="https://github.com/user-attachments/assets/33be307b-214c-4d34-81e5-e867a83ebe2f"  style="max-width: 40%; height: auto;">, где speed — скорость передвижения ТС или грузчика. Скорости у vehicle и loader отличаются. Матрица расстояний — полная, симметричная и обеспечивает выполнение неравенства треугольника. 
+где <img src="https://github.com/user-attachments/assets/21f253d5-959b-4cd7-9700-b61eb64e9f58"  style="max-width: 40%; height: auto;"> — математическое округление до второго знака после запятой. Время прохождения расстояния вычисляется по формуле: <img src="https://github.com/user-attachments/assets/33be307b-214c-4d34-81e5-e867a83ebe2f"  style="max-width: 40%; height: auto;"> , где speed — скорость передвижения ТС или грузчика. Скорости у vehicle и loader отличаются. Матрица расстояний — полная, симметричная и обеспечивает выполнение неравенства треугольника. 
 
 ### Входные данные 
 Сценарии входных данных представлены в формате json. Структура файла содержит блоки, которые описаны ниже. Первый блок — общая информация: 
