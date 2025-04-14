@@ -1,8 +1,0 @@
-title: BIA CVRPTW Competition 2025
-theme: minima  # Стандартная тема
-markdown: kramdown
-kramdown:
-  input: GFM           # Поддержка GitHub Flavored Markdown
-  math_engine: mathjax # Для формул LaTeX
-plugins:
-  - jekyll-feed
