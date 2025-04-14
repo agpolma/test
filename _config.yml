@@ -4,6 +4,4 @@ theme: minima  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
-author:
-  name: John Smith
-  email: "john.smith@foobar.com"
+author: 2025
