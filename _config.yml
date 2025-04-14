@@ -5,3 +5,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 author: 2025
+minima:
+  skin: classic 
+  skin_primary: "#ffffff" # Белый фон шапки
+  skin_border: "#e5e5e5" # Граница
