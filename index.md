@@ -64,10 +64,7 @@ python3 -m pip install -r requirements.txt
 
 <img src="https://github.com/user-attachments/assets/2fd116f2-8399-4bb5-8bd9-ae8515b46be7"  height="40">
 
-<img src="https://github.com/user-attachments/assets/2fd116f2-8399-4bb5-8bd9-ae8515b46be7"  height="20%">
-
-
-где <img src="https://github.com/user-attachments/assets/21f253d5-959b-4cd7-9700-b61eb64e9f58"  height="40"> — математическое округление до второго знака после запятой. Время прохождения расстояния вычисляется по формуле: <img src="https://github.com/user-attachments/assets/33be307b-214c-4d34-81e5-e867a83ebe2f"  height="30">, где speed — скорость передвижения ТС или грузчика. Скорости у vehicle и loader отличаются. Матрица расстояний — полная, симметричная и обеспечивает выполнение неравенства треугольника. 
+где <img src="https://github.com/user-attachments/assets/21f253d5-959b-4cd7-9700-b61eb64e9f58"  height="35"> — математическое округление до второго знака после запятой. Время прохождения расстояния вычисляется по формуле: <img src="https://github.com/user-attachments/assets/33be307b-214c-4d34-81e5-e867a83ebe2f"  height="35">, где speed — скорость передвижения ТС или грузчика. Скорости у vehicle и loader отличаются. Матрица расстояний — полная, симметричная и обеспечивает выполнение неравенства треугольника. 
 
 Данные содержат координаты заказов на плоскости, расстояние между точками — евклидово расстояние, рассчитанное с точностью до 0.01:
 
