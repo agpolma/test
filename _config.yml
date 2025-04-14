@@ -1,5 +1,5 @@
 title: BIA Technologies
-subtitle: 2025
+description: Описание
 theme: minima  # Стандартная тема
 markdown: kramdown
 plugins:
