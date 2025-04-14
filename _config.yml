@@ -1,6 +1,6 @@
 title: BIA Technologies
 description: Описание
-theme: minima  # Стандартная тема
+theme: automatic  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
