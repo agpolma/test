@@ -3,9 +3,5 @@ theme: minima  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
-navigation:
-  - name: Главная
-    link: /
-  - name: валидация
-    link: /about
+
 
