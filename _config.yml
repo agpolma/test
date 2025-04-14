@@ -4,5 +4,4 @@ theme: minima  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
-
-
+  - jekyll-ceo-tag
