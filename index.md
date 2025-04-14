@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Главная
+---
 
 # BIA CVRPTW Competition 2025
 
