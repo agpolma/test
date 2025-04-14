@@ -1,6 +1,6 @@
 title: BIA Technologies
 description: Описание
-theme: automatic  # Стандартная тема
+theme: reverie  # Стандартная тема
 markdown: kramdown
 plugins:
   - jekyll-feed
