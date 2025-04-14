@@ -1,0 +1,27 @@
+---
+---
+@import "minima";
+
+// Фиксируем шапку
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  .wrapper {
+    padding: 0.8rem 1rem;
+  }
+}
+
+// Фикс для основного содержимого
+main {
+  padding-top: 10px;
+}
+
+// Фикс для мобильного меню
+.site-nav {
+  background: white;
+  z-index: 101;
+}
