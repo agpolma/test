@@ -1,19 +1,22 @@
 ---
+# Front matter необходимо для обработки Jekyll
 ---
+
 @import "minima";
 
-/* Исправление для sticky-шапки */
-body > header.site-header {
-  position: sticky !important;
-  top: 0 !important;
+/* Фиксация шапки */
+.site-header {
+  position: fixed !important; /* Используем fixed как гарантированное решение */
+  top: 0;
+  width: 100%;
   z-index: 1000;
   background: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Отключаем overflow у родительских элементов */
-html, body, .wrapper {
-  overflow: visible !important;
+/* Компенсация отступа */
+main.page-content {
+  padding-top: 80px !important; /* Подберите под высоту вашей шапки */
 }
 
 /* Фикс для мобильного меню */
@@ -22,7 +25,8 @@ html, body, .wrapper {
   z-index: 1001;
 }
 
-/* Отступ для контента */
-main {
-  padding-top: 20px;
+/* Гарантированное отключение мешающих свойств */
+html, body {
+  overflow-x: visible !important;
+  height: auto !important;
 }
